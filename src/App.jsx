@@ -65,7 +65,7 @@ function App() {
                        
                             <>
                             <Routes>
-    <Route path='/' element={<Login />} />
+    <Route path='/log' element={<Login />} />
     <Route path='/registrar' element={<Registrar />} />
     <Route path='/dashboard' element={<Dashboard />} />
     <Route path='/usuarios' element={<Usuarios />} />
