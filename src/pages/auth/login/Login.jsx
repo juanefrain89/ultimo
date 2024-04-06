@@ -35,6 +35,16 @@ const Login = () => {
         }
     }
 
+    const usuarios=[
+        { correo: "razoj140@gmail.com",
+        password :"12345"
+    },
+    {
+        correo :"aron@gmail.com",
+        password :"12345"
+    }
+    ]
+
     const ejecutarLogin = (e) => {
         e.preventDefault();
 
@@ -43,30 +53,29 @@ const Login = () => {
             password: input.password
         };
 
-        fetch("https://avegury.000webhostapp.com:3220/login", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(obj)
-        })
-        .then(res => res.json())
-        .then((cred) => {
-            console.log(cred);
-            localStorage.setItem("id", cred.id);
-            localStorage.setItem("rol", cred.rol);
-            document.cookie = `token=${cred.token}; max-age=${60 * 10}; path=/; samesite=strict`;
-            console.log(document.cookie);
+        
+
+       
+        
+    for (let i = 0; i < usuarios.length; i++) {
+        if (input.correo == usuarios[i].correo && input.password == usuarios[i].password) {
+            console.log("jdjdjdjd");
             localStorage.setItem("users", input.correo);
             localStorage.setItem("usercontraseña", input.password);
             window.location.href = "http://localhost:5173/dashboard";
-        });
+            
+        }
 
-        setInput({
-            correo: "",
-            password: ""
-        });
     }
+    setInput({
+        correo: "",
+        password: ""
+    });
+      
+    }
+    
+
+    
 
     return (
         <> 

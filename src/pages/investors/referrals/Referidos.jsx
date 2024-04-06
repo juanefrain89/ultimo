@@ -14,25 +14,28 @@ const [tratamiento, settratamiento] = useState("");
 const [numero, setnumero] = useState("");
 const [datos, setdatos]=useState([])
 useEffect(() => {
-    const ejec =(e)=>{
+    
         const ide = localStorage.getItem("id")
 
         
-        fetch("http://localhost:4200/datos", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json"
-            },
-            body: JSON.stringify({ id: ide }) 
-          })
-            .then(res => res.json()).then((cred)=>{
-                console.log(cred);
-                setdatos(cred)
+        const usuarios = [
+            { numero: "1234567890", correo: "correo1@example.com", nombre: "Nombre1" },
+            { numero: "2345678901", correo: "correo2@example.com", nombre: "Nombre2" },
+            { numero: "3456789012", correo: "correo3@example.com", nombre: "Nombre3" },
+            { numero: "4567890123", correo: "correo4@example.com", nombre: "Nombre4" },
+            { numero: "5678901234", correo: "correo5@example.com", nombre: "Nombre5" },
+            { numero: "6789012345", correo: "correo6@example.com", nombre: "Nombre6" },
+            { numero: "7890123456", correo: "correo7@example.com", nombre: "Nombre7" },
+            { numero: "8901234567", correo: "correo8@example.com", nombre: "Nombre8" },
+            { numero: "9012345678", correo: "correo9@example.com", nombre: "Nombre9" },
+            { numero: "0123456789", correo: "correo10@example.com", nombre: "Nombre10" }
+        ];
+        
+         
+                setdatos(usuarios)
                
         
-            })            
-        }
-        ejec()
+          
 },[])
 
 
