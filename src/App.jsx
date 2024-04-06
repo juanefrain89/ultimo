@@ -62,7 +62,7 @@ function App() {
                     <Routes>
                         <Route path='/' element={<Login />} />
                        <Route path='/registrar' element={<Registrar/>} />
-                        {isLoggedIn ? (
+                       
                             <>
                                 <Route path='/' element={<Login />} />
                                 <Route path='/dashboard' element={<Dashboard />} />
@@ -73,11 +73,7 @@ function App() {
                                 <Route path='/personalizar' element={<Personalizar />} />
                                 <Route path='/p' element={<NuevaFecha />} />                                                          
                             </>
-                        ) : (
-                            <Route path='/' element={<Login />} />
-                           
-                           
-                        )}
+                      
                     </Routes>
                 </BrowserRouter>
             </I18nextProvider>
