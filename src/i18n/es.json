@@ -1,0 +1,457 @@
+{
+	"slogan": "Empieza a construir tu futuro",
+	"copy-referral-link": "Copiar link de referido",
+	"referral-link-copied": "Copiado!",
+	"error": "Error",
+	"select-language": "Seleccionar idioma",
+	"no-contract": "Aun no se ha lanzado el contrato",
+	"wrong-chain": {
+		"title": "Estas en la red incorrecta",
+		"description": "Selecciona la red *$chainName* desde tu wallet o pulsando el siguiente boton",
+		"switch-btn": "Cambiar a $chainName"
+	},
+	"modals": {
+		"close-error": "Cerrar"
+	},
+	"Balance Total en Wallet" : "Balance Total en billetera",
+	"loading": {
+		"loading": "Cargando...",
+		"sending-tx": "Enviando transacción",
+		"waiting-tx": "Esperando confirmación de la red",
+		"registering-contract": "Guardando dirección del contrato",
+		"sending-request": "Enviando solicitud",
+		"done": "Listo!"
+	},
+	"intro": {
+		"help": "¿Necesitas ayuda? Ingresa a nuestra comunidad en Telegram y síguenos en las redes sociales.",
+		"connect-wallet": "Conecta tu wallet"
+	},
+	"pages": {
+		"dashboard": "Dashboard",
+		"user": "Usuario",
+		"plans": "Contratos",
+		"history": "Historial",
+		"referrals": "Referidos",
+		"nft-market": "Mercado NFT",
+		"announcements": "Anuncios"
+	},
+	"admin": {
+		"titles": {
+			"short": {
+				"stats": "Estadísticas",
+				"contract": "Contrato",
+				"users": "Usuarios",
+				"tools": "Herramientas",
+				"announcements": "Anuncios",
+				"block": "Bloqueos"
+			},
+			"long": {
+				"stats": "Estadísticas de la plataforma",
+				"contract": "Configuración del contrato",
+				"users": "Consultar información de usuarios",
+				"tools": "Herramientas",
+				"announcements": "Anuncios",
+				"block": "Bloqueos De Usuarios"
+			}
+		},
+		"contract-address": "Dirección del contrato",
+		"no-address": "Sin lanzar",
+		"no-contract-btns": {
+			"load": "Cargar un contrato existente"
+		},
+		"modal-title": {
+			"load-contract": "Cargar un contrato existente",
+			"create-contract": "Lanzar el contrato",
+			"min-deposit": "Fijar un depósito mínimo",
+			"withdraw-limit": "Cambiar el limite de retiro",
+			"withdraw-fee": "Cambiar la tarifa de retiro",
+			"membership": "Configurar membresía",
+			"new-plan": "Crear plan",
+			"fast-bonus-fractions": "Ajustar fast bonus",
+			"reward-fractions": "Ajustar recompensas por referidos"
+		},
+		"modal-fields": {
+			"contract-addr": "Dirección del contrato",
+			"load-btn": "Cargar",
+			"token-addr": "Dirección del token",
+			"old-contract-addr": "Dirección del contrato antiguo",
+			"withdraw-limit": "Limite diario de retiro",
+			"min-deposit": "Depósito mínimo",
+			"withdraw-fee": {
+				"pay-to": "Pagar a",
+				"amount": "Valor"
+			},
+			"membership": {
+				"pay-to": "Pagar a",
+				"version": "Versión",
+				"version-explanation": "Aumentala para solicitarle a todos un nuevo pago. Mantenla igual para modificarle el precio a aquellos que aun no han pagado la membresía actual.",
+				"price": "Precio",
+				"duration": "Duración"
+			},
+			"roi": "% ROI total",
+			"duration-days": "Duración (en dias)",
+			"plan-min-deposit": "Depósito mínimo",
+			"plan-time-limit": "Limite de tiempo",
+			"plan-units-limit": "Limite de unidades",
+			"plan-investment-limit": "Limite de inversion total",
+			"deploy-contract-btn": "Lanzar",
+			"create-plan-btn": "Crear",
+			"save-btn": "Guardar",
+			"new-min-deposit": "Nuevo mínimo (en $symbol)",
+			"new-withdraw-limit": "Nuevo limite diario (en $symbol)",
+			"level": "Nivel",
+			"pay-to": "Pagar a",
+			"fee-percent": "Porcentaje"
+		},
+		"plans": {
+			"list-title": "Planes",
+			"remove-btn": "Eliminar",
+			"create-btn": "Añadir plan",
+			"roi": "ROI total",
+			"duration": "Duración",
+			"min-deposit": "Depósito mínimo",
+			"time-limit": "Limite de tiempo",
+			"units-limit": "Limite de unidades",
+			"investment-limit": "Limite de total invertido"
+		},
+		"contract-info": {
+			"btn-enable": "Activar",
+			"btn-disable": "Desactivar",
+			"min-deposit": "Depósito mínimo",
+			"withdraw-limit": "Limite diario de retiro",
+			"withdraw-fee": {
+				"title": "Tarifa por retiros",
+				"pay-to": "Pagar a",
+				"amount": "Valor"
+			},
+			"membership": {
+				"pay-to": "Pagar a",
+				"title": "Cobro por usar la plataforma",
+				"version": "Versión",
+				"price": "Precio",
+				"duration": "Duración"
+			},
+			"fast-bonus-fractions": "Fast bonus (niveles 1..6)",
+			"reward-fractions": "Residuales (niveles 1..6)",
+			"edit-btn": "Editar"
+		},
+		"fees": {
+			"list-title": "Comisiones",
+			"create-btn": "Añadir",
+			"edit-btn": "Editar",
+			"remove-btn": "Eliminar",
+			"edit-modal-title": "Asignar comisión",
+			"pay-to": "Pagar a",
+			"percent": "Cantidad"
+		},
+		"user-info": {
+			"address-input": "Dirección",
+			"referrer": "Referidor",
+			"referrer-edit": {
+				"btn": "Modificar",
+				"modal-title": "Cambiar referidor",
+				"account": "Cuenta",
+				"new-referrer": "Nuevo referidor"
+			},
+			"extra-owed-amount": "Saldo extra a cobrar",
+			"deposits": {
+				"list-title": "Depósitos",
+				"amount": "Cantidad",
+				"created-at": "Fecha",
+				"period": "Duración",
+				"profit": "Ganancia",
+				"withdrawn": "Retirado"
+			},
+			"referrals": {
+				"title": "Estadisticas de referidos",
+				"pending-fast-bonus": "Fast bonus sin cobrar",
+				"pending-rewards": "Residual sin cobrar",
+				"total-future-rewards": "Residual total a futuro",
+				"levels": "Niveles",
+				"level": "Nivel",
+				"referred-count": "Referidos",
+				"total-deposited": "Depositado"
+			}
+		},
+		"debug-info": {
+			"modal-title": "Recompensas de referidos de $account",
+			"open-info-btn": "Información avanzada"
+		},
+		"stats": {
+			"total": "Total",
+			"today": "Hoy",
+			"last-$days-days": "Ultimos $days dias",
+			"transfers": {
+				"in": "Ingresos",
+				"out": "Retiros"
+			},
+			"registered-users": {
+				"title": "Usuarios registrados"
+			},
+			"plans": {
+				"title": "Planes mas populares",
+				"roi": "ROI",
+				"duration": "Duración",
+				"deposit-count": "Depositos activos",
+				"total-deposited": "Total depositado"
+			}
+		},
+		"tools": {
+			"give-membership": {
+				"title": "Conceder membresía",
+				"address": "Dirección",
+				"submit-btn": "Enviar"
+			},
+			"success-message": {
+				"title": "Listo",
+				"membership-conceded": "Membresía de* $address *actualizada.",
+				"close-btn": "Aceptar"
+			}
+		},
+		"block": {
+			"title1": "Bloqueo permanente de usuarios",
+			"title2": "Desbloqueo de usuario",
+			"address": "Dirección del usuario",
+			"reason": "Motivo del bloqueo",
+			"button1": "Bloquear",
+			"button2": "Desbloquear",
+			"unblock": "Desbloqueo de usuarios",
+			"success-message": {
+				"title": "Listo",
+				"block-conceded": "Usuario bloqueado correctamente",
+				"close-btn": "Cerrar"
+			}
+		},
+		"announcements": {
+			"create-new": "Crear nuevo",
+			"list-empty": "Nada aun...",
+			"included-images": {
+				"title": "Imagenes incluidas",
+				"description": "Sube imagenes aqui para incluirlas en tu anuncio. Una vez subidas, copia y pega el codigo en los lugares donde quieres que la imagen aparezca.",
+				"upload-btn": "Subir",
+				"code": "Codigo"
+			},
+			"create": {
+				"submit-btn": "Crear",
+				"edit": {
+					"title": "Editar",
+					"title-field": "Titulo",
+					"content-field": "Contenido"
+				},
+				"preview": {
+					"title": "Vista previa"
+				}
+			}
+		}
+	},
+	"register": {
+		"title": "Bienvenido!",
+		"subtitle": "Registrate para poder comenzar a usar la plataforma",
+		"profile-pic": "Foto de perfil",
+		"name": "Nombre",
+		"birth-date": "Fecha de nacimiento",
+		"country": "Pais",
+		"submit": "Registrarse",
+		"no-referrer": {
+			"title": "Necesitas un link de referido para poder registrarte",
+			"subtitle": "Pidele uno a alguien que ya sea usuario de la pagina"
+		}
+	},
+	"membership": {
+		"title": "Membresia requerida",
+		"description": "Necesitas comprar una membresia para continuar utilizando la plataforma",
+		"info": "El precio es *$price*$duration",
+		"duration": " y la duracion es de *$time $unit*",
+		"purchase-btn": "Comprar ahora"
+	},
+	"announcements" : {
+		"empty" : "Aún no hay anuncios..."
+	},
+	"restrictions": {
+		"title": "Restricciones",
+		"1": "El capital no se puede retirar hasta cumplir el tiempo de inversión.",
+		"2": "Solo se pueden hacer retiros diarios provenientes de las ganancias totales y de las recompensas por referidos.",
+		"3_part1": "La cantidad máxima de retiros es de {{withdrawLimit}} USDT, ",
+		"3_part2": "los dividendos que excedan esa cantidad",
+		"3_part3": " se devuelven a la cuenta de forma automática.",
+		"4": "La cantidad mínima de inversión es de {{minDeposit}} USDT.",
+		"5": "Si es tu primera vez en la plataforma, debes *aprobar el contrato* para poder invertir.",
+		"6": "La cantidad mínima de inversión depende del plan de inversión que selecciones.",
+		"7": "Si es tu primera vez en la plataforma, debes ",
+		"7_bold": "aprobar el contrato",
+		"7_end": " para poder invertir."
+	},
+	"dashboard": {
+		"grettings-1" : "Buenos días",
+		"grettings-2" : "Buenas tardes",
+		"grettings-3" : "Buenas noches",
+		"report-desc" : "Para obtener un reporte general, haga click en el siguiente botón",
+		"report-btn" : "Obtener reporte general",
+		"platform-status": {
+			"title": "Estado de la plataforma",
+			"total-invested": "Total invertido por usuarios",
+			"referrers-reward": "Recompensa por referidos",
+			"contract-balance": "Balance en contrato",
+			"update-date": "Fecha de actualización",
+			"all-rights-reserved": "Todos los derechos reservados"
+		},
+		"account-status": {
+			"title": "Estado de tu cuenta",
+			"wallet-balance": "Balance total en wallet",
+			"total-invested": "Total capital invertido",
+			"total-earnings": "Ganancias totales",
+			"earnings-detail-btn": "Detalles",
+			"deposit-profit": "Ganancias por depositos",
+			"fast-bonus": "Ganancias por Fast Bonus",
+			"monthly-rewards": "Ganancias por residual",
+			"debt-amount": "Monto de deuda",
+			"withdraw": {
+				"btn": "Reclamar",
+				"amount": "Cantidad",
+				"modal-title": "Reclamar ganancias",
+				"modal-submit": "Confirmar"
+			},
+			"reinvest": {
+				"btn": "Reinvertir",
+				"amount": "Cantidad",
+				"modal-title": "Reinvertir ganancias",
+				"modal-submit": "Confirmar",
+				"select-plan": "Selecciona un contrato"
+			}
+		}
+	},
+	"profile": {
+		"gender": {
+			"title": "Genero",
+			"male": "Hombre",
+			"female": "Mujer",
+			"other": "Otro",
+			"no-answer": "Prefiero no decirlo"
+		},
+		"edit": {
+			"modal-title": "Editar perfil",
+			"edit-name-title": "Editar nombre",
+			"new-name": "Tu nuevo nombre",
+			"new-birth-date": "Fecha de nacimiento",
+			"new-country": "Pais",
+			"new-gender": "Genero",
+			"save-changes": "Guardar"
+		}
+	},
+	"user": {
+		"plans": {
+			"title": "Contratos activos",
+			"item-name": "Contrato",
+			"investment": "Inversión",
+			"state": "Estado",
+			"action": "Acción",
+			"roi": "ROI",
+			"created-at": "Período",
+			"ends-at": "Vence",
+			"time-left": "Quedan $time $timeUnit",
+			"finished": "Finalizado",
+			"withdraw": "Retirar",
+			"empty": "No tienes ningún contrato activo",
+			"starts": "Inicia",
+    		"ends": "Termina"
+		},
+		"referrer": "Sponsor"
+	},
+	"plans": {
+		"plan": "Contrato",
+		"days": "Días",
+		"action": "Acción",
+		"invest-btn": "Invertir",
+		"approve-btn": "Aprobar contrato",
+		"approve-success": {
+			"title": "Contrato aprobado",
+			"description": "Listo! Ya aprobaste el contrato y puedes comenzar a invertir",
+			"close-btn": "Aceptar"
+		},
+		"options-title": "Contratos de inversión",
+		"total-roi": "ROI total",
+		"daily-roi": "ROI diario",
+		"min-deposit": "Inv. mínima",
+		"limits-intro": "Este contrato es de edicion limitada, acaba $when",
+		"limits-last-separator": "o",
+		"modal": {
+			"title": "Iniciar contrato",
+			"amount": "Monto a invertir",
+			"confirm-btn": "Invertir"
+		}
+	},
+	"history": {
+		"transactions": "Transacciones",
+		"earnings": "Ganancias",
+		"concept": "Concepto",
+		"date": "Fecha",
+		"amount": "Monto",
+		"prev": "Anterior",
+		"next": "Siguiente",
+		"empty": "Nada aún...",
+		"entry-titles": {
+			"deposit": "Depósito",
+			"withdrawal": "Retiro",
+			"deposit-profit": "Por tus contratos",
+			"referral-profit": "Por referidos"
+		}
+	},
+	"referrals": {
+		"info": {
+			"title": "Leyenda",
+			"1": "Todos los montos están expresados en USDT.",
+			"2": "El equipo de personas se refiere a quienes integran tu red de afiliados.",
+			"3": "El volumen grupal es la suma de todo lo invertido por las personas que integran tu red de afiliados.",
+			"4": "Las ganancias actuales dicta lo que has recibido de tu red de afiliados hasta el momento según su nivel y su inversión.",
+			"5": "El bono inicial es lo que ganas al instante que un referido realiza un depósito.",
+			"6": "El residual mensual estimado es el total que ganarás por tus referidos al mes.",
+			"7": "Ganancia total estimada es lo que recibirás cuando finalice el tiempo de los contratos de todos tus referidos."
+		},
+		"stats": {
+			"team-size": "Equipo total de personas",
+			"total-invested": "Volumen grupal",
+			"current-earnings": "Ganancias actuales",
+			"initial-bonus": "Bono inicial",
+			"monthly-referral-bonus": "Residual mensual estimado",
+			"estimated-total-earnings": "Ganancia total estimada"
+		},
+		"table": {
+			"level": "Nivel",
+			"team-size": "Equipo",
+			"total-invested": "Total invertido",
+			"fast-bonus": "Fast bonus",
+			"residual": "Residual",
+			"monthly-payment": "Pago mensual"
+		}
+	},
+	"nft-market": {
+		"increases-monthly-roi": "Aumenta % ROI mensual",
+		"bonus": {
+			"for-referrals": "X Referidos",
+			"for-deposits": "X Capital"
+		},
+		"buy": "Comprar"
+	},
+	"time": {
+		"days": "Días",
+		"hours": "Horas",
+		"minutes": "Minutos",
+		"seconds": "Segundos"
+	},
+	"errors": {
+		"enmp": "Tienes que comprar una membresía antes de hacer esto",
+		"endep": "Necesitas tener depositos activos para retirar",
+		"edbm": "La inversión esta por debajo del mínimo solicitado",
+		"not-enough-balance-available": "Tus ganancias estan por debajo de la cantidad solicitada",
+		"plan-doesnt-exist": "El contrato solicitado no existe",
+		"contract-is-out-of-funds": "El contrato se quedo sin fondos",
+		"entw": "Nada que retirar",
+		"user-rejected-the-request": "Transacción rechazada",
+		"safeerc20-low-level-call-failed": "Error al transferir el dinero: Verifica que tengas suficiente en tu wallet y que el contrato este autorizado a usarlo.",
+		"execution-reverted-for-an-unknown-reason": "La transacción falló por un motivo desconocido",
+		"ewbf": "El monto a retirar no es suficiente para cubrir la tarifa de retiro"
+	},
+	"withdraw": "Retirar",
+	"status_completed": "Finalizado",
+	"status_in_progress": "En progreso"
+}

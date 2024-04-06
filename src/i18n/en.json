@@ -1,0 +1,451 @@
+{
+	"slogan": "Start building your future",
+	"copy-referral-link": "Copy referral link",
+	"referral-link-copied": "Copied!",
+	"error": "Error",
+	"select-language": "Select language",
+	"no-contract": "The contract has not been deployed yet",
+	"wrong-chain": {
+		"title": "You're on the wrong network",
+		"description": "Select the *$chainName* network from your wallet or by clicking the button below",
+		"switch-btn": "Switch to $chainName"
+	},
+	"Balance Total en Wallet" : "Total Balance in Wallet",
+	"modals": {
+		"close-error": "Close"
+	},
+	"loading": {
+		"loading": "Loading...",
+		"sending-tx": "Sending transaction",
+		"waiting-tx": "Waiting network confirmation",
+		"registering-contract": "Saving contract address",
+		"sending-request": "Sending request",
+		"done": "Done!"
+	},
+	"intro": {
+		"help": "Need help? Join our community on Telegram and follow our accounts on social media.",
+		"connect-wallet": "Connect your wallet"
+	},
+	"pages": {
+		"dashboard": "Dashboard",
+		"user": "User",
+		"plans": "Contracts",
+		"history": "History",
+		"referrals": "Referrals",
+		"nft-market": "NFT market",
+		"announcements": "Announcements",
+		"ranges": "Ranges"
+	},
+	"admin": {
+		"titles": {
+			"short": {
+				"stats": "Statistics",
+				"contract": "Contract",
+				"users": "Users",
+				"tools": "Tools",
+				"announcements": "Announcements",
+				"block": "Block",
+				"ranges": "Ranges"
+			},
+			"long": {
+				"stats": "Platform statistics",
+				"contract": "Contract settings",
+				"users": "View user information",
+				"tools": "Tools",
+				"announcements": "Announcements",
+				"block": "Block Users",
+				"ranges": "Range User Information"
+			}
+		},
+		"contract-address": "Contract address",
+		"no-address": "None",
+		"no-contract-btns": {
+			"load": "Load an existing contract"
+		},
+		"modal-title": {
+			"load-contract": "Load existing contract",
+			"create-contract": "Deploy contract",
+			"min-deposit": "Change min. deposit",
+			"withdraw-limit": "Change withdraw limit",
+			"withdraw-fee": "Change withdraw fee",
+			"membership": "Membership configuration",
+			"new-plan": "Create plan",
+			"fast-bonus-fractions": "Configure fast bonus",
+			"reward-fractions": "Configure referral rewards"
+		},
+		"modal-fields": {
+			"contract-addr": "Contract address",
+			"load-btn": "Load",
+			"token-addr": "Token address",
+			"old-contract-addr": "Old contract address",
+			"withdraw-limit": "Daily withdraw limit",
+			"min-deposit": "Min. deposit",
+			"withdraw-fee": {
+				"pay-to": "Pay to",
+				"amount": "Amount"
+			},
+			"membership": {
+				"pay-to": "Pay to",
+				"version": "Version",
+				"version-explanation": "Increase to request a new payment from everyone. Keep it the same to modify the current membership price for those who haven't paid it yet",
+				"price": "Price",
+				"duration": "Duration"
+			},
+			"roi": "Total ROI %",
+			"duration-days": "Duration (in days)",
+			"plan-min-deposit": "Min. deposit",
+			"plan-time-limit": "Time limit",
+			"plan-units-limit": "Units limit",
+			"plan-investment-limit": "Total investment limit",
+			"deploy-contract-btn": "Deploy",
+			"create-plan-btn": "Create",
+			"save-btn": "Save",
+			"new-min-deposit": "New minimum (in $symbol)",
+			"new-withdraw-limit": "New daily limit (in $symbol)",
+			"level": "Level",
+			"pay-to": "Pay to",
+			"fee-percent": "% of deposits"
+		},
+		"plans": {
+			"list-title": "Plans",
+			"remove-btn": "Remove",
+			"create-btn": "Create plan",
+			"roi": "Total ROI",
+			"duration": "Duration",
+			"min-deposit": "Min. deposit",
+			"time-limit": "Time limit",
+			"units-limit": "Units limit",
+			"investment-limit": "Total investment limit"
+		},
+		"contract-info": {
+			"btn-enable": "Enable",
+			"btn-disable": "Disable",
+			"min-deposit": "Min. deposit",
+			"withdraw-limit": "Daily withdraw limit",
+			"withdraw-fee": {
+				"title": "Withdraw fee",
+				"pay-to": "Pay to",
+				"amount": "Amount"
+			},
+			"membership": {
+				"pay-to": "Pay to",
+				"title": "Payment to use the platform",
+				"version": "Version",
+				"price": "Price",
+				"duration": "Duration"
+			},
+			"fast-bonus-fractions": "Fast bonus (levels 1..6)",
+			"reward-fractions": "Monthly referral rewards (levels 1..6)",
+			"edit-btn": "Edit"
+		},
+		"fees": {
+			"list-title": "Deposit fees",
+			"create-btn": "Add",
+			"edit-btn": "Edit",
+			"remove-btn": "Remove",
+			"edit-modal-title": "Set deposit fee",
+			"pay-to": "Pay to",
+			"percent": "Amount"
+		},
+		"user-info": {
+			"address-input": "Address",
+			"referrer": "Referred by",
+			"referrer-edit": {
+				"btn": "Edit",
+				"modal-title": "Change referrer",
+				"account": "Account",
+				"new-referrer": "New referrer"
+			},
+			"extra-owed-amount": "Extra owed amount",
+			"deposits": {
+				"list-title": "Deposits",
+				"amount": "Amount",
+				"created-at": "Date",
+				"period": "Duration",
+				"profit": "Profit",
+				"withdrawn": "Withdrawn"
+			},
+			"referrals": {
+				"title": "Referrals stats",
+				"pending-fast-bonus": "Fast bonus (not withdrawn)",
+				"pending-rewards": "Monthly bonus (not withdrawn)",
+				"total-future-rewards": "Total future monthly bonus",
+				"levels": "Levels",
+				"level": "Level",
+				"referred-count": "Referred",
+				"total-deposited": "Deposited"
+			}
+		},
+		"debug-info": {
+			"modal-title": "Referral rewards for $account",
+			"open-info-btn": "Debug info"
+		},
+		"stats": {
+			"total": "Total",
+			"today": "Today",
+			"last-$days-days": "Last $days days",
+			"transfers": {
+				"in": "Deposits",
+				"out": "Withdrawals"
+			},
+			"registered-users": {
+				"title": "Registered users"
+			},
+			"plans": {
+				"title": "Popular plans",
+				"roi": "ROI",
+				"duration": "Duration",
+				"deposit-count": "Active deposits",
+				"total-deposited": "Total deposited"
+			}
+		},
+		"tools": {
+			"give-membership": {
+				"title": "Grant membership",
+				"address": "Address",
+				"submit-btn": "Submit"
+			},
+			"success-message": {
+				"title": "Done",
+				"membership-conceded": "Membership granted for* $address *",
+				"close-btn": "Close"
+			}
+		},
+		"annnouncements": {
+			"create-new": "Create new",
+			"list-empty": "Nothing yet...",
+			"included-images": {
+				"title": "Included images",
+				"description": "Upload here the images you want to include in your announcement. Once uploaded, copy and paste the code in the places where you want the image to appear.",
+				"upload-btn": "Upload",
+				"code": "Code"
+			},
+			"create": {
+				"submit-btn": "Create",
+				"edit": {
+					"title": "Edit",
+					"title-field": "Title",
+					"content-field": "Content"
+				},
+				"preview": {
+					"title": "Preview"
+				}
+			}
+		},
+		"block": {
+			"title1": "Permanent block users",
+			"title2": "Unblock users",
+			"address": "Address of the user",
+			"reason": "Reason of the block",
+			"button1": "Block user",
+			"button2": "Unblock user",
+			"unblock": "Unblock Users",
+			"success-message": {
+				"title": "Success",
+				"block-conceded": "User Blocked correctly",
+				"close-btn": "Close"
+			}
+		}
+	},
+	"register": {
+		"title": "Welcome!",
+		"subtitle": "Register to start using the platform",
+		"profile-pic": "Profile picture",
+		"name": "Name",
+		"birth-date": "Birth date",
+		"country": "Country",
+		"submit": "Register",
+		"no-referrer": {
+			"title": "You need to use a referral link to register",
+			"subtitle": "You can get one from any existing user of the website"
+		}
+	},
+	"membership": {
+		"title": "Membership required",
+		"description": "You need to purchase a membership to continue using the platform",
+		"info": "The price is *$price*$duration",
+		"duration": " and the duration is *$time $unit*",
+		"purchase-btn": "Buy now"
+	},
+	"announcements" : {
+		"empty" : "No announcements yet..."
+	},
+	"restrictions": {
+		"title": "Restrictions",
+		"1": "Capital invested cannot be withdrawn until the end of the investment time.",
+		"2": "You can only make daily withdrawals from the money coming from investment returns and referral rewards.",
+		"3_part1": "The maximum withdrawal amount is {{withdrawLimit}} USDT, ",
+  		"3_part2": "amounts that exceed this limit",
+  		"3_part3": " will be automatically returned to the account.",
+		"4": "The minimum investment amount is {{minDeposit}} USDT.",
+		"5": "If it's your first time in the platform, you need to *approve the contract* to be able to invest.",
+		"6": "The minimum investment amount depends on the investment plan you select.",
+		"7": "If it's your first time on the platform, you must ",
+		"7_bold": "approve the contract",
+		"7_end": " in order to invest."
+	},
+	"dashboard": {
+		"grettings-1" : "Good morning",
+		"grettings-2" : "Good afternoon",
+		"grettings-3" : "Good evening",
+		"report-desc" : "To obtain a general report, click on the following button",
+		"report-btn" : "Get general report",
+		"platform-status": {
+			"title": "Platform status",
+			"total-invested": "Total invested by users",
+			"referrers-reward": "Referral rewards",
+			"contract-balance": "Balance in contract",
+			"update-date": "Last update",
+			"all-rights-reserved": "All rights reserved"
+		},
+		"account-status": {
+			"title": "Account status",
+			"wallet-balance": "Total balance in wallet",
+			"total-invested": "Total invested",
+			"total-earnings": "Total earnings",
+			"earnings-detail-btn": "Details",
+			"deposit-profit": "Deposit profits",
+			"fast-bonus": "Fast Bonus rewards",
+			"monthly-rewards": "Monthly referral rewards",
+			"debt-amount": "Debt Amount",
+			"withdraw": {
+				"btn": "Withdraw",
+				"amount": "Amount",
+				"modal-title": "Withdraw earnings",
+				"modal-submit": "Confirm"
+			},
+			"reinvest": {
+				"btn": "Reinvest",
+				"amount": "Amount",
+				"modal-title": "Reinvest earnings",
+				"modal-submit": "Confirm",
+				"select-plan": "Select a contract"
+			}
+		}
+	},
+	"profile": {
+		"gender": {
+			"title": "Gender",
+			"male": "Male",
+			"female": "Female",
+			"other": "Other",
+			"no-answer": "Prefer not to say"
+		},
+		"edit": {
+			"modal-title": "Edit profile",
+			"edit-name-title": "Edit name",
+			"new-name": "Your new name",
+			"new-birth-date": "Birth date",
+			"new-country": "Country",
+			"new-gender": "Gender",
+			"save-changes": "Save"
+		}
+	},
+	"user": {
+		"plans": {
+			"title": "Active contracts",
+			"item-name": "Contract",
+			"investment": "Investment",
+			"state": "State",
+			"action": "Action",
+			"roi": "ROI",
+			"created-at": "Period",
+			"ends-at": "Ends",
+			"time-left": "$time $timeUnit left",
+			"finished": "Finished",
+			"withdraw": "Withdraw",
+			"empty": "You have no active contracts",
+			"starts": "Starts",
+    		"ends": "Ends"
+		},
+		"referrer": "Sponsor"
+	},
+	"plans": {
+		"plan": "Contract",
+		"days": "Days",
+		"action": "Action",
+		"invest-btn": "Invest",
+		"approve-btn": "Approve contract",
+		"approve-success": {
+			"title": "Contrat approved",
+			"description": "Done! You approved the contract and now you can invest",
+			"close-btn": "Ok"
+		},
+		"options-title": "Investment contracts",
+		"total-roi": "Total ROI",
+		"daily-roi": "Daily ROI",
+		"min-deposit": "Min. deposit",
+		"limits-intro": "This contract is a limited edition. It ends $when",
+		"limits-last-separator": "or",
+		"modal": {
+			"title": "Begin contract",
+			"amount": "Amount to invest",
+			"confirm-btn": "Invest"
+		}
+	},
+	"history": {
+		"transactions": "Transactions",
+		"concept": "Concept",
+		"date": "Date",
+		"amount": "Amount",
+		"prev": "Previous",
+		"next": "Next",
+		"earnings": "Earnings",
+		"empty": "Nothing yet...",
+		"entry-titles": {
+			"deposit": "Deposit",
+			"withdrawal": "Withdrawal",
+			"deposit-profit": "From investment",
+			"referral-profit": "From referrals"
+		}
+	},
+	"referrals": {
+		"info": {
+			"title": "Legend",
+			"1": "All amounts are expressed in USDT.",
+			"2": "Team size is the amount of people that are part of your referral network.",
+			"3": "Total invested is the sum of the investments made by the people in your referral network.",
+			"4": "Current earnings tells you the amount you've received until now from those in your network, according to their level and investments.",
+			"5": "Initial bonus is what you earn instantly when someone you referred makes a deposit.",
+			"6": "Monthly referral bonus is the amount you'll earn from your referrals the next month.",
+			"7": "Estimated total earnings is the amount you'll get when all deposits made by your referrals finish."
+		},
+		"stats": {
+			"team-size": "Team size",
+			"total-invested": "Total invested",
+			"current-earnings": "Current earnings",
+			"initial-bonus": "Initial bonus",
+			"monthly-referral-bonus": "Monthly referral bonus",
+			"estimated-total-earnings": "Estimated total earnings"
+		},
+		"table": {
+			"level": "Level",
+			"team-size": "Team size",
+			"total-invested": "Total invested",
+			"fast-bonus": "Fast bonus",
+			"residual": "Monthly",
+			"monthly-payment": "Monthly total"
+		}
+	},
+	"nft-market": {
+		"increases-monthly-roi": "Increases monthly ROI",
+		"bonus": {
+			"for-referrals": "For referrals",
+			"for-deposits": "For deposits"
+		},
+		"buy": "Buy"
+	},
+	"time": {
+		"days": "Days",
+		"hours": "Hours",
+		"minutes": "Minutes",
+		"seconds": "Seconds"
+	},
+	"errors": {
+		"ememb": "You need to purchase a membership before doing this",
+		"endep": "You need at least one active deposit to withdraw"
+	},
+	"withdraw": "Withdraw",
+	"status_completed": "Completed",
+	"status_in_progress": "In Progress"
+}

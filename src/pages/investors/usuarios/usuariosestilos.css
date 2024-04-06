@@ -1,0 +1,92 @@
+body{
+    height: 100vh;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    
+}
+
+.tr-usuarios{
+    width: 100%;
+    height: 20px;
+    padding: 0;
+    
+}
+
+
+.td-usuarios, .tr-usuarios{
+    
+    padding: 8px;
+    border-bottom: 0.2px solid #E0E0E0;
+    box-sizing: border-box;
+    height: 40px;
+    width: 33.33%;
+}
+p{
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.l{
+    width: 100%;
+    height: 100%;
+    background-color: #292728;
+    display: flex;
+    flex-direction: column; 
+    justify-content:space-between;
+    border-radius: 0 5px 5px 0 ;
+    box-shadow: 5px 5px 10px #333;
+}
+
+.texto{
+    margin-left: 40%;
+    color: red;
+    font-family:fantasy;
+}
+
+.as{
+    width: 170px;
+    height: 100%;
+    
+}
+
+.padre1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+
+.containeri{
+    width: 85%;
+    height: 100%;
+    display: inline-block;
+    
+   margin: 3%;
+    
+}
+
+.tabla-usuarios{
+    width: 100%;
+    border-spacing: 0px;
+    border-collapse: collapse; 
+    margin: 0 auto;
+     background-color:  #fff;
+    border: solid  gray 2px;
+}
+
+.a{
+    margin-left:40%;
+    color: #dcecee;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.td-usuarios button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+

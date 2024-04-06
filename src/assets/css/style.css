@@ -1,0 +1,48 @@
+.background-guest{
+    background-image: url('/src/assets/img/background-guest.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.background{
+    background-color: #070F21;
+}
+
+.icon-image{
+    width: 25px;
+    margin-right: 20px;
+}
+
+.link-menu{
+    border-radius: 10px;
+    padding: 15px 20px;
+    width: 100%;
+    text-decoration: none;
+    background-color: transparent;
+    transition: .5s;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.link-menu:hover, .link-menu.active{
+    background-color: rgba(52, 64, 96, .26);
+    transition: .5s;
+}
+
+.bg-main{
+    background-color: rgba(52, 64, 96, .26);
+}
+
+.card{
+    border-radius: 15px !important;
+    border: none !important;
+    color: white !important;
+    background-color: rgba(52, 64, 96, .26) !important;
+}
+
+.card-img-top{
+    border-top-right-radius: 15px !important;
+    border-top-left-radius: 15px !important;
+}
