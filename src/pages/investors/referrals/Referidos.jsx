@@ -42,33 +42,11 @@ useEffect(() => {
 
 
 
-      const  enviarbd =  async () => {
-        try {
-            
-             await axios.post("http://localhost:4200/agregardatos", enviar)
-             console.log(obj);
-            
-      }catch{
-        console.log("datos no enviados" );
-      };
-    }
+      
 
 const [id, setid]=useState("")
 
 
-const handleEliminar =  async (evento, clienteId) => {
-   
-   evento.preventDefault();
-   const obj= {id:clienteId}
-   try {
-   if(window.confirm("estas seguro de borrar")){
-    await axios.post("http://localhost:4200/eliminardatos", obj)
-    console.log(obj);
-   }
-   }catch{
-    console.log("mal ahi padrino");
-   }
-}
 
 
 const [enviar, setenviar]=useState({
@@ -125,20 +103,6 @@ const handlemodificar = (e) => {
 
 
 
-  const as = async()=>{
-    
-    const obj={correo,tratamiento,numero,id}
-    console.log(obj);
-    fetch("http://localhost:4200/modificardatos", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json"
-            },
-            body: JSON.stringify(obj) 
-          })
-           
-    
-}
 
     return ( 
         

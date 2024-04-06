@@ -62,15 +62,15 @@ const Login = () => {
             console.log("jdjdjdjd");
             localStorage.setItem("users", input.correo);
             localStorage.setItem("usercontraseña", input.password);
-            window.location.href = "http://localhost:5173/dashboard";
+            window.location.href = "https://dentapp.vercel.app/dashboard";
             
         }
 
     }
-    setInput({
-        correo: "",
-        password: ""
-    });
+     setInput({
+            correo: "",
+            password: ""
+        });
       
     }
     
