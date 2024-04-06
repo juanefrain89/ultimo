@@ -59,25 +59,26 @@ function App() {
         <div>
             <I18nextProvider i18n={i18next}>
                 <BrowserRouter>
-             
-                        
-                      
-                       
+                    <Routes>
+                        <Route path='/' element={<Login />} />
+                       <Route path='/registrar' element={<Registrar/>} />
+                        {isLoggedIn ? (
                             <>
-                            <Switch>
-    <Route path='https://dentapp.vercel.app/log' element={<Login />} />
-    <Route path='/registrar' element={<Registrar />} />
-    <Route path='/dashboard' element={<Dashboard />} />
-    <Route path='/usuarios' element={<Usuarios />} />
-    <Route path='/usu' element={<Referidos />} />
-    <Route path='/events' element={<Events />} />
-    <Route path='/contratos' element={<Usuarios />} />
-    <Route path='/personalizar' element={<Personalizar />} />
-    <Route path='/p' element={<NuevaFecha />} />
-    </Switch>                                                        
+                                <Route path='/' element={<Login />} />
+                                <Route path='/dashboard' element={<Dashboard />} />
+                                <Route path='/usuarios' element={<Usuarios />} />
+                                <Route path='/usu' element={<Referidos />} />
+                                <Route path='/events' element={<Events />} />
+                                <Route path='/contratos' element={<Usuarios />} />
+                                <Route path='/personalizar' element={<Personalizar />} />
+                                <Route path='/p' element={<NuevaFecha />} />                                                          
                             </>
-                      
-           
+                        ) : (
+                            <Route path='/' element={<Login />} />
+                           
+                           
+                        )}
+                    </Routes>
                 </BrowserRouter>
             </I18nextProvider>
         </div>
