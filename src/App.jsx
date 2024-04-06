@@ -64,7 +64,7 @@ function App() {
                       
                        
                             <>
-                            <Routes>
+                            <Switch>
     <Route path='https://dentapp.vercel.app/log' element={<Login />} />
     <Route path='/registrar' element={<Registrar />} />
     <Route path='/dashboard' element={<Dashboard />} />
@@ -74,8 +74,7 @@ function App() {
     <Route path='/contratos' element={<Usuarios />} />
     <Route path='/personalizar' element={<Personalizar />} />
     <Route path='/p' element={<NuevaFecha />} />
-</Routes>
-                                                        
+    </Switch>                                                        
                             </>
                       
            
