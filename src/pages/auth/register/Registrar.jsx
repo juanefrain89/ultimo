@@ -42,10 +42,10 @@ const Registrar = () => {
             <div className="contenedor-box">
                 <h1 className="huno">Registrarme aquí</h1>
                 <img src={imagen} alt="" className="avatar"/>
-                <form action="http://localhost:4200/registrar" method="post">
+    <form action="http://localhost:4200/registrar" method="post">
                     <label htmlFor="nombre">Nombre</label>
                     <input type="text" name="nombre" className="usuarios" placeholder="Introduce tu nombre"/>
-                    <label htmlFor="apellidos">Apellidos</label>
+                    <label htmlFor="                apellidos">Apellidos</label>
                     <input type="text" name="apellidos" className="usuarios" placeholder="Introduce tus apellidos"/>
                     <label htmlFor="correo">Correo</label>
                     <input type="text"  name="correo" className="usuarios" placeholder="Introduce tu correo"/>

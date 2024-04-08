@@ -22,12 +22,15 @@ export function Investor(props) {
     const { i18n } = useTranslation();
 const [encontrar, setencontrar]=useState()
     const [users, setUsers] = useState([]);
+
+
     const cerrarsesion =()=>{
         localStorage.removeItem("users")
         localStorage.removeItem("id")
         window.location.href = "http://localhost:5173";
 
     }
+
     const correo = localStorage.getItem("users")
     
 
