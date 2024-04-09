@@ -34,6 +34,7 @@ const Registrar = () => {
         },
         body: JSON.stringify( obj) 
       })
+        .catch(error => console.error('Error al enviar la solicitud:', error));
     
     }
 
@@ -42,7 +43,7 @@ const Registrar = () => {
             <div className="contenedor-box">
                 <h1 className="huno">Registrarme aquí</h1>
                 <img src={imagen} alt="" className="avatar"/>
-    <form  action="https://ddcd-5.onrender.com/registrar" method="post">
+    <form>
                     <label htmlFor="nombre">Nombre</label>
                     <input type="text" name="nombre" className="usuarios" placeholder="Introduce tu nombre"/>
                     <label htmlFor="                apellidos">Apellidos</label>
