@@ -60,13 +60,8 @@ function App() {
             <I18nextProvider i18n={i18next}>
                 <BrowserRouter>
                     <Routes>
-<<<<<<< HEAD
-                        <Route path='/' element={<Registrar/>} />
-                       <Route path='/registrar' element={<Login/>} />
-=======
                         <Route path='/' element={<Referidos/>} />
                        <Route path='/registrar' element={<Registrar/>} />
->>>>>>> bb0939a36decf41b93be016f8d64cb6bad745242
                         {isLoggedIn ? (
                             <>
                                 <Route path='/' element={<Login />} />
@@ -91,7 +86,4 @@ function App() {
 }
 
 export default App
-<<<<<<< HEAD
 
-=======
->>>>>>> bb0939a36decf41b93be016f8d64cb6bad745242
