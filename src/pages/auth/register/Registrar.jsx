@@ -43,7 +43,7 @@ const Registrar = () => {
             <div className="contenedor-box">
                 <h1 className="huno">Registrarme aquí</h1>
                 <img src={imagen} alt="" className="avatar"/>
-    <form>
+    <form onSubmit={y}>
                     <label htmlFor="nombre">Nombre</label>
                     <input type="text" name="nombre" className="usuarios" placeholder="Introduce tu nombre"/>
                     <label htmlFor="                apellidos">Apellidos</label>
@@ -60,7 +60,7 @@ const Registrar = () => {
                     <label htmlFor="confirmPassword">Confirmar Contraseña</label>
                     <input type="password" name="confirmPassword" className="usuarios" placeholder="Confirma tu contraseña"/>
                     
-                    <button className='buttone' type="submit">Registrarme</button>
+                    <button className='buttone' type="button">Registrarme</button>
                     
                 </form>
             </div>
