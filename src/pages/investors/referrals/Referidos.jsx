@@ -127,7 +127,7 @@ const handlemodificar = (e) => {
     
     const obj={correo,tratamiento,numero,id}
     console.log(obj);
-    fetch("http://localhost:4200/modificardatos", {
+    fetch("https://ddcd-5.onrender.com/modificardatos", {
             method: "POST",
             headers: {
               "Content-Type": "application/json"
