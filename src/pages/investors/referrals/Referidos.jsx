@@ -60,7 +60,7 @@ const handleEliminar =  async (evento, clienteId) => {
    const obj= {id:clienteId}
    try {
    if(window.confirm("estas seguro de borrar")){
-    await axios.post("http://localhost:4200/eliminardatos", obj)
+    await axios.post("https://ddcd-5.onrender.com/eliminardatos", obj)
     console.log(obj);
    }
    }catch{
