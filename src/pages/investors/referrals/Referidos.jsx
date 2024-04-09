@@ -148,7 +148,7 @@ const handlemodificar = (e) => {
         <Investor>
            
            <center>  <h1 className='h1'>clientes </h1> </center>
-           <center> 
+       
            <div className="padre-1" > 
         
            {datos.map((e, index)=>(
@@ -206,7 +206,7 @@ const handlemodificar = (e) => {
         <div className="contenedor-abajo">
 
         </div>
-        </center>
+      
         <div className="above">
             <div className="abovehijo1">
                 <h1 className='abovehijoh1'>leyenda</h1>
