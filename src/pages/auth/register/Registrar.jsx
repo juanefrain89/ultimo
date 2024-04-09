@@ -27,7 +27,7 @@ const Registrar = () => {
         tratamiento:datos.tratamiento
     }
     e.preventDefault()
-    fetch("http://localhost:4200/registrar", {
+    fetch("https://ddcd-5.onrender.com//registrar", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
