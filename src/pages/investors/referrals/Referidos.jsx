@@ -25,13 +25,13 @@ useEffect(() => {
             },
             body: JSON.stringify({ id: ide }) 
         })
-        .then(res => res.text()) // Utilizamos res.text() para obtener el cuerpo de la respuesta como texto
+        .then(res => res.text()) 
         .then(html => {
-            console.log(html); // Mostramos el HTML por consola
+            console.log(html); 
         })
         .catch(error => {
             console.error('Error al conectar con el servidor:', error);
-            // Aquí puedes manejar el error de la conexión, por ejemplo, mostrando un mensaje al usuario
+           
         });
     };
 
