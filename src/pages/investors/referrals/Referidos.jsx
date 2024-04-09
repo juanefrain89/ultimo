@@ -19,7 +19,7 @@ useEffect(() => {
         const ide = localStorage.getItem("id");
 
         fetch("https://ddcd-5.onrender.com/peticiones", {
-            method: "POST",
+            method: "get",
             headers: {
               "Content-Type": "application/json"
             },
