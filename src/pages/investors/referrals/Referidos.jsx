@@ -13,6 +13,7 @@ const [correo, setcorreo] = useState("");
 const [tratamiento, settratamiento] = useState("");
 const [numero, setnumero] = useState("");
 const [datos, setdatos]=useState([])
+
 useEffect(() => {
     const ejec = () => {
         const ide = localStorage.getItem("id");
@@ -24,10 +25,9 @@ useEffect(() => {
             },
             body: JSON.stringify({ id: ide }) 
         })
-        .then(res => res.json())
-        .then((cred) => {
-            console.log(cred);
-            setdatos(cred);
+        .then(res => res.text()) // Utilizamos res.text() para obtener el cuerpo de la respuesta como texto
+        .then(html => {
+            console.log(html); // Mostramos el HTML por consola
         })
         .catch(error => {
             console.error('Error al conectar con el servidor:', error);
@@ -37,6 +37,7 @@ useEffect(() => {
 
     ejec();
 }, []);
+
 
 
 
