@@ -16,28 +16,24 @@ const [datos, setdatos]=useState([])
 
 useEffect(() => {
     const ejec = () => {
-        const ide = localStorage.getItem("id");
-
         fetch("https://ddcd-5.onrender.com/peticiones", {
-            method: "get",
+            method: "GET", // Cambiado a GET
             headers: {
               "Content-Type": "application/json"
-            },
-            body: JSON.stringify({ id: ide }) 
+            }
         })
-        .then(res => res.text()) 
-        .then(html => {
-            console.log(html); 
+        .then(res => res.json())
+        .then((cred) => {
+            console.log(cred);
+            setdatos(cred);
         })
         .catch(error => {
             console.error('Error al conectar con el servidor:', error);
-           
         });
     };
 
     ejec();
 }, []);
-
 
 
 
