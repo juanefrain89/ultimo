@@ -14,26 +14,30 @@ const [tratamiento, settratamiento] = useState("");
 const [numero, setnumero] = useState("");
 const [datos, setdatos]=useState([])
 useEffect(() => {
-    const ejec =(e)=>{
-        const ide = localStorage.getItem("id")
+    const ejec = () => {
+        const ide = localStorage.getItem("id");
 
-        
-        fetch("http://localhost:4200/datos", {
+        fetch("https://ddcd-5.onrender.com/peticiones", {
             method: "POST",
             headers: {
               "Content-Type": "application/json"
             },
             body: JSON.stringify({ id: ide }) 
-          })
-            .then(res => res.json()).then((cred)=>{
-                console.log(cred);
-                setdatos(cred)
-               
-        
-            })            
-        }
-        ejec()
-},[])
+        })
+        .then(res => res.json())
+        .then((cred) => {
+            console.log(cred);
+            setdatos(cred);
+        })
+        .catch(error => {
+            console.error('Error al conectar con el servidor:', error);
+            // Aquí puedes manejar el error de la conexión, por ejemplo, mostrando un mensaje al usuario
+        });
+    };
+
+    ejec();
+}, []);
+
 
 
 
