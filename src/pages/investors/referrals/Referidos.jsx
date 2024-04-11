@@ -43,7 +43,7 @@ useEffect(() => {
       const  enviarbd =  async () => {
         try {
             
-             await axios.post("http://localhost:4200/agregardatos", enviar)
+             await axios.post("https://ddcd-5.onrender.com/agregardatos", enviar)
              console.log(obj);
             
       }catch{
