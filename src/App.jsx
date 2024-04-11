@@ -60,7 +60,7 @@ function App() {
             <I18nextProvider i18n={i18next}>
                 <HashRouter>
                     <Routes>
-                        <Route path='/' element={<Referidos/>} />
+                        <Route path='/' element={<Login/>} />
                        <Route path='/registrar' element={<Registrar/>} />
                       
                             <>
